@@ -21,8 +21,9 @@ return new class extends Migration
             $table->string('brand');
             $table->string('composition');
             $table->integer('count')->nullable();
-            $table->string('seo_h1');
-            $table->string('seo_description');
+            $table->string('seo_h1')->nullable();
+            $table->string('seo_title')->nullable();
+            $table->string('seo_description')->nullable();
             $table->string('weight');
             $table->string('width');
             $table->string('height');

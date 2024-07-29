@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use App\Models\Product;
 
-class AddFields extends Model
+class   AddFields extends Model
 {
     use HasFactory;
 
@@ -18,6 +18,7 @@ class AddFields extends Model
         'composition',
         'count',
         'seo_h1',
+        'seo_title',
         'seo_description',
         'weight',
         'width',
